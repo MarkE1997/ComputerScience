@@ -1,8 +1,8 @@
 package CE152.Lab1;
 import java.util.Scanner;
-public class Lab {
+class Lab {
 
-    public static void calcInterest() {
+    static void calcInterest() {
         // insert code for exercise on calculating interest
         Scanner input = new Scanner(System.in);
 
@@ -24,7 +24,7 @@ public class Lab {
         System.out.println("Balance after 3 years: " + balance);
 
     }
-    public static void calcMeans() {
+    static void calcMeans() {
         // insert code for exercise on calculating means
         Scanner input = new Scanner(System.in);
 
@@ -55,7 +55,7 @@ public class Lab {
 
     }
 
-    public static void greetName() {
+    static void greetName() {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Please enter your first name: ");
@@ -66,13 +66,13 @@ public class Lab {
 
     }
 
-    public static void escapeSeq() {
+    static void escapeSeq() {
         System.out.println("\"Hello,\n World\"");
         System.out.println("\t\\t|t//t/");
         System.out.println("#\'a\\ab\\b'^");
     }
 
-    public static void ageDiffrence() {
+    static void ageDiffrence() {
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter the first age, in months and years");
         System.out.print("Years: ");
@@ -112,7 +112,7 @@ public class Lab {
 
     }
 
-    public static void nextCharacters() {
+    static void nextCharacters() {
     Scanner input = new Scanner(System.in);
     System.out.print("Please enter a character: ");
     char userIn = input.next().charAt(0);
@@ -123,7 +123,7 @@ public class Lab {
     System.out.println(Character.toString((char)character));
 }
 
-    public static void triangleArea() {
+    static void triangleArea() {
 //      take inputs
         Scanner input = new Scanner(System.in);
         System.out.println("Please input the coordinates of the three corners of a triangle:");
